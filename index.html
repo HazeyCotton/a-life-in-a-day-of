@@ -9,8 +9,7 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play A Life in the Day of....</tw-noscript></noscript></tw-story>
-<tw-storydata name="A Life in the Day of..." startnode="23" creator="Twine" creator-version="2.3.14" ifid="4CC7AB50-9D96-4FE5-9133-4700D011294C" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
-@import url(https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap);
+<tw-storydata name="A Life in the Day of..." startnode="23" creator="Twine" creator-version="2.3.14" ifid="4CC7AB50-9D96-4FE5-9133-4700D011294C" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url(https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap);
 
 tw-story {
 	background-color: #a1ca8f;
@@ -54,7 +53,19 @@ img {
 	max-width: 60%;
 	height: auto;
 }
-</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="intro" tags="" position="498,360" size="100,100">Dyslexia is a learning disability that hinders an individual’s ability to read by affecting spelling, writing, and comprehension. To put in simpler terms, dyslexia is an unexpected difficulty in reading when that person has the intelligence to be a much better reader. It is usually due to a difficulty in understanding sounds of a spoken language directly causing changes in speaking, reading, spelling, and sometimes learning a second language. Often Individuals with dyslexia can be very creative and intelligent yet struggle with basic reading skills. Dyslexia affects 20% of the population and represents 80-90 percent of all learning disabilities. ^^5,1^^
+#heading {
+	text-align: center;
+}
+  
+  
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">var audio = document.createElement('audio');
+audio.setAttribute('id', 'nowplaying');
+audio.src = 'audios/RimuliByJINBAO.mp3';
+audio.loop = true;
+$("body").append(audio);
+window.audio_background = audio;
+</script><tw-passagedata pid="1" name="intro" tags="" position="497,360" size="100,100">&lt;script&gt;audio_background.play();&lt;/script&gt;
+Dyslexia is a learning disability that hinders an individual’s ability to read by affecting spelling, writing, and comprehension. To put in simpler terms, dyslexia is an unexpected difficulty in reading when that person has the intelligence to be a much better reader. It is usually due to a difficulty in understanding sounds of a spoken language directly causing changes in speaking, reading, spelling, and sometimes learning a second language. Often Individuals with dyslexia can be very creative and intelligent yet struggle with basic reading skills. Dyslexia affects 20% of the population and represents 80-90 percent of all learning disabilities. ^^5,1^^
 
 This game’s goal is to show what it is like to have dyslexia and to spread awareness. The creators of the game, one having dyslexia, here emphasize that this game does not encompass all experiences of dyslexia, it shows one person’s experience with dyslexia may be like.
 
@@ -88,7 +99,7 @@ This game’s goal is to show what it is like to have dyslexia and to spread awa
 //Huh? I didn&#39;t get that//
 
 [[Add what you think the recipe would say-&gt;Step 2 Guess]]
-[[Read over again outloud-&gt;Step 2 Reread]]</tw-passagedata><tw-passagedata pid="8" name="Step 2 Guess" tags="" position="413,1281" size="100,100">//Okay usually recipes have you add all dry ingredients first so…//
+[[Read over again outloud-&gt;Step 2 Reread]]</tw-passagedata><tw-passagedata pid="8" name="Step 2 Guess" tags="" position="412,1281" size="100,100">//Okay usually recipes have you add all dry ingredients first so…//
 
 //Hmm was this right?//
 
@@ -99,17 +110,17 @@ This game’s goal is to show what it is like to have dyslexia and to spread awa
 
 //Alright now butter and sugar.//
 
-[[//That wasn&#39;t too bad//-&gt;Step 4]]</tw-passagedata><tw-passagedata pid="11" name="Step 2 Look Again" tags="" position="337,1431" size="100,100">You look at recipe card again, 
+[[//That wasn&#39;t too bad//-&gt;Step 4]]</tw-passagedata><tw-passagedata pid="11" name="Step 2 Look Again" tags="" position="336,1431" size="100,100">You look at recipe card again, 
 
 &lt;img src=&quot;Images/recipe.gif&quot; alt=&quot;recipe&quot; /&gt;
 
 //Oh flour, 2 cups. Okay one more cup.//
 
 [[//I&#39;m ready for the next step//-&gt;Step 3]]
-</tw-passagedata><tw-passagedata pid="12" name="Step 2 Good Enough" tags="" position="467,1431" size="100,100">Measure out 1 cup of brown sugar and pour in bowl.
+</tw-passagedata><tw-passagedata pid="12" name="Step 2 Good Enough" tags="" position="475,1432" size="100,100">Measure out 1 cup of brown sugar and pour in bowl.
 Measure equal parts of baking soda and power.
 
-[[//That&#39;s good enough//-&gt;Step 3]]</tw-passagedata><tw-passagedata pid="13" name="Step 4" tags="" position="545,1766" size="100,100">4. Beat in eggs and vanilla until fluffy.
+[[//That&#39;s good enough//-&gt;Step 3]]</tw-passagedata><tw-passagedata pid="13" name="Step 4" tags="" position="544,1766" size="100,100">4. Beat in eggs and vanilla until fluffy.
 
 Gif
 
@@ -118,7 +129,7 @@ Gif
 //Oh no! I never got to the other dry ingredients//
 
 
-[[Finish all the steps-&gt;Screen 5]]</tw-passagedata><tw-passagedata pid="15" name="Screen 5" tags="" position="545,2066" size="100,100">Your brother Adam walks into the kitchen. The sweet scent of cookies lingering throughout the house must have brought him here. Adam maneuvers himself towards the finished cookies and points down towards your completed desert. “Can I have one?” He asks politely already reaching for one. You nod as he puts the cookie up to his mouth and takes a bite.
+[[Finish all the steps-&gt;Screen 5]]</tw-passagedata><tw-passagedata pid="15" name="Screen 5" tags="" position="544,2066" size="100,100">Your brother Adam walks into the kitchen. The sweet scent of cookies lingering throughout the house must have brought him here. Adam maneuvers himself towards the finished cookies and points down towards your completed desert. “Can I have one?” He asks politely already reaching for one. You nod as he puts the cookie up to his mouth and takes a bite.
 
 His expression sours as he chews, “Oh my God, Morgan, what did you put in these? You really screwed up this batch” 
 
@@ -129,14 +140,14 @@ Before even swallowing the piece of cookie Adam’s voice begins to rise, “Mor
 
 [[Feeling incredibly stressed, you remove yourself from the situation.-&gt;Stressed]]
 [[Angrily, you insult Adam back.-&gt;Angry]]
-[[Disappointed, you respond apologetically-&gt;Apologetic]]</tw-passagedata><tw-passagedata pid="16" name="Stressed" tags="" position="395,2216" size="100,100">“I don’t even know what to do anymore. I have to leave. I can’t be here. I need to leave. I need to be safe. I need to leave.” 
+[[Disappointed, you respond apologetically-&gt;Apologetic]]</tw-passagedata><tw-passagedata pid="16" name="Stressed" tags="" position="372,2216" size="100,100">“I don’t even know what to do anymore. I have to leave. I can’t be here. I need to leave. I need to be safe. I need to leave.” 
 
-[[You leave.-&gt;End]]</tw-passagedata><tw-passagedata pid="17" name="Angry" tags="" position="537,2235" size="100,100">You turn towards him and retort, “Well I thought you liked horrible cookies so I made them just for you Adam. I figured because all the meals you make taste sort of like these cookies, that you’d like this too.“
+[[You leave.-&gt;End]]</tw-passagedata><tw-passagedata pid="17" name="Angry" tags="" position="524,2223" size="100,100">You turn towards him and retort, “Well I thought you liked horrible cookies so I made them just for you Adam. I figured because all the meals you make taste sort of like these cookies, that you’d like this too.“
 
 You pick up a cookie yourself and promptly bite into it. 
 //Did I add to much egg? The cookie tastes oddly salty?//
 
-[[You pick up the recipe again not sure what mistake you made.-&gt;End]]</tw-passagedata><tw-passagedata pid="18" name="Apologetic" tags="" position="680,2211" size="100,100">“Ah damn Adam, I must have really messed up. I got so many lines confused while reading the new roman font, and trying to do so many other things at the same time.&quot;
+[[You pick up the recipe again not sure what mistake you made.-&gt;End]]</tw-passagedata><tw-passagedata pid="18" name="Apologetic" tags="" position="713,2211" size="100,100">“Ah damn Adam, I must have really messed up. I got so many lines confused while reading the new roman font, and trying to do so many other things at the same time.&quot;
 
 Adam put the cookie he bit back down on the kitchen countertop, “Hey Morgan don’t worry about it, we can make them over together if you want?”
 
@@ -144,7 +155,7 @@ Adam put the cookie he bit back down on the kitchen countertop, “Hey Morgan do
 [[“I can do it on my own. Thanks for offering though.”-&gt;Screen 6B]]
 
 “No way I should have been able to-do this on my own.&quot; 
-[[You leave.-&gt;End]]</tw-passagedata><tw-passagedata pid="19" name="End" tags="" position="569,2612" size="100,100">Morgan has dyslexia, and in this regard, they are similar to 5-17% of the United States population. Suffice to say Morgan is not alone however, many people mistake dyslexia for being stupid. Dyslexia is not tied to intelligence, it can appear as an unexpected difficulty in reading for those who have the intelligence to read at a higher level. This is because of the difficulty in “phonological processing (the appreciation of the individual sounds of spoken language)”, which negatively affects that person’s ability to speak, read, spell, and learn a second language^^1^^.
+[[You leave.-&gt;End]]</tw-passagedata><tw-passagedata pid="19" name="End" tags="" position="610,2591" size="100,100">Morgan has dyslexia, and in this regard, they are similar to 5-17% of the United States population. Suffice to say Morgan is not alone however, many people mistake dyslexia for being stupid. Dyslexia is not tied to intelligence, it can appear as an unexpected difficulty in reading for those who have the intelligence to read at a higher level. This is because of the difficulty in “phonological processing (the appreciation of the individual sounds of spoken language)”, which negatively affects that person’s ability to speak, read, spell, and learn a second language^^1^^.
 
 And because this gap between the high capacity to understand and the difficulty to decode and sometimes communicate, causes Morgan to have low self-esteem. For more information on skills that are affected by dyslexia please read [[here-&gt;https://www.understood.org/articles/en/skills-that-can-be-affected-by-dyslexia?_sp=78f9e234-2702-4367-af24-070fdc21d4ba.1638465992560]]^^2^^.
  
@@ -154,18 +165,21 @@ Morgan was diagnosed with dyslexia when they were young, but people may be diagn
 
 If you are involved in the Georgia Institute of Technology and would like to get counsel for receiving help for dyslexia, please contact the [[Office of Disability Services-&gt;https://disabilityservices.gatech.edu/content/contact-us]]^^4^^. If you are not, please look for a service near you; getting diagnosed and treated for dyslexia can greatly improve your quality of life. 
 
-[[Citations-&gt;Citations]]</tw-passagedata><tw-passagedata pid="20" name="Screen 6A" tags="" position="747,2346" size="100,100">You restart making cookies with Adam. When reading out loud to your brother, he double checks the recipe and corrects some small mistakes you made. The cookies come out as delicious as they smell. 
+[[Citations-&gt;Citations]]</tw-passagedata><tw-passagedata pid="20" name="Screen 6A" tags="" position="737,2351" size="100,100">You restart making cookies with Adam. When reading out loud to your brother, he double checks the recipe and corrects some small mistakes you made. The cookies come out as delicious as they smell. 
 
 [[You and your brother enjoy your Flag Day cookies.-&gt;End]]
 </tw-passagedata><tw-passagedata pid="21" name="Screen 6B" tags="" position="891,2345" size="100,100">You restart making cookies looking up a YouTube video of someone making the cookies. Adam leaves the kitchen to let you work on your own. With some help from online resources, you are able to make your Flag Day cookies. The cookies come out as delicious as they smell and your brother re-enters the kitchen. He eats one and pipes up, “Dang Morgan, these cookies are delicious.” Throughout the rest of the day, you receive compliments on the cookies you baked.
 
 [[You feel proud of what you have accomplished.-&gt;End]]
-</tw-passagedata><tw-passagedata pid="22" name="Citations" tags="" position="569,2762" size="100,100">1. http://dyslexia.yale.edu/wp-content/uploads/2017/08/YCDC_Dyslexia_one_pager_final.pdf 
+</tw-passagedata><tw-passagedata pid="22" name="Citations" tags="" position="613,2736" size="100,100">&lt;h3 id=&quot;heading&quot;&gt;Citations&lt;/h3&gt;
+&lt;script&gt;audio_background.stop();&lt;/script&gt;
+1. http://dyslexia.yale.edu/wp-content/uploads/2017/08/YCDC_Dyslexia_one_pager_final.pdf 
 2. https://www.understood.org/articles/en/skills-that-can-be-affected-by-dyslexia?_sp=78f9e234-2702-4367-af24-070fdc21d4ba.1638465992560
 3. https://www.helenarkell.org.uk/about-dyslexia/famous-dyslexics.php
 4. https://disabilityservices.gatech.edu/content/contact-us
 5. https://neurohealthah.com/blog/types-of-dyslexia/
-</tw-passagedata><tw-passagedata pid="23" name="Cover" tags="button1" position="490,165" size="100,100">&lt;style&gt; img {
+</tw-passagedata><tw-passagedata pid="23" name="Cover" tags="button1" position="494,201" size="100,100">&lt;script&gt;Music.pause();&lt;/script&gt;
+&lt;style&gt; img {
 	max-width:100%;
 	max-height:100%;
 } &lt;/style&gt;
